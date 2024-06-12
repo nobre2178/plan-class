@@ -1,0 +1,54 @@
+body {
+    background-image: url(./img/img-biblioteca.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-cadastrar {
+    padding: 8px;
+    width: 370px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+form {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.field {
+    height: 50px;
+    padding-left: 12px;
+    font-size: 22px;
+    color: black;
+    outline: none;
+    border-radius: 7px;
+    
+}
+
+.field:focus {
+    border: #770000 5px solid;
+}
+
+.btn-cadastrar {
+    background-color: #d63031;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.btn-cadastrar:hover {
+    background-color: #770000;
+}
